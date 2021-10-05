@@ -1,0 +1,14 @@
+.positionDiv {
+  background-color: #70b5c9;
+}
+.dark-theme .positionDiv {
+  background-color: #6dcfe7;
+}
+
+.cardBackgroundColor {
+  background-color: none;
+}
+
+.dark-theme .cardBackgroundColor {
+  background-color: #d6ddeb;
+}

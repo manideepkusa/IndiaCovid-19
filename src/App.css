@@ -1,0 +1,6 @@
+.dark-theme {
+  background-color: #18191a;
+  color: #f8f8f8;
+  min-height: 100vh;
+  transition: background-color 2s;
+}

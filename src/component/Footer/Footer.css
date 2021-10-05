@@ -1,0 +1,11 @@
+.footer {
+  text-align: center;
+  margin-bottom: 0px;
+  color: white;
+  background-color: #2b6777;
+  padding: 10px;
+}
+
+.dark-theme .footer {
+  background-color: #212121;
+}

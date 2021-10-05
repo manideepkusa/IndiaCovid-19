@@ -1,0 +1,71 @@
+.search {
+  border: 1px solid #141414;
+  border-radius: 10px;
+  height: 40px;
+  padding: 2px 23px 2px 30px;
+  outline: 0;
+  margin-top: 30px;
+  transition-delay: 0.25s;
+  transition-timing-function: ease;
+  background-color: white;
+}
+
+.search:hover,
+.search:focus {
+  border: 2px solid #009688;
+  background-color: white;
+}
+
+.icon {
+  position: absolute;
+  z-index: 4;
+  margin-top: 143px;
+  top: 06px;
+  padding-left: 10px;
+  color: #545352;
+}
+
+.form-control:focus {
+  border-color: #009688;
+  box-shadow: 0 0 0 0.1rem #009688;
+}
+
+.heading {
+  color: #2b6777;
+}
+
+.dark-theme .heading {
+  color: white;
+}
+
+/* card Stling */
+.totalCard {
+  text-align: center;
+  border-bottom: 4px solid #2b6777;
+}
+.cardHeading {
+  background-color: #c8d8e4;
+  text-shadow: 1px 1px white;
+}
+
+.cardBody {
+  background-color: #f2f2f2;
+  color: #2b6777;
+}
+
+.dark-theme .totalCard {
+  border: none;
+  border-bottom: 5px solid #d3d6f1;
+}
+
+.dark-theme .cardHeading {
+  background-color: #3a3b3c;
+  text-shadow: none;
+  transition: background-color 2s ease;
+}
+
+.dark-theme .cardBody {
+  background-color: #b0b3b8;
+  color: black;
+  transition: background-color color 2s ease;
+}
